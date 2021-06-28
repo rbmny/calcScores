@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel (r'/Users/ricardobomeny/Desktop/ULEND/auto-scores/RatingsPM.xlsx')
+df = pd.read_excel (r'/Users/ricardobomeny/Desktop/ULEND/RatingsPM.xlsx')
 # print(df)
 dfR = df['Rating']
 dfS = df['Score']
